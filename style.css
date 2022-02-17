@@ -1,0 +1,193 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    background-color: rgb(47, 45, 45);
+    padding: 8px 24px;
+
+}
+
+.DLH-logo {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 1000;
+    background-color: rgb(235,245,253);
+    border-radius: 25px;
+    padding: 8px;
+}
+
+span:first-of-type {
+    color: #CC6600;
+}
+
+span:nth-of-type(2) {
+    color: rgb(245,211,0);
+}
+
+span:nth-of-type(3) {
+    color: #336633;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin-left: auto;
+    font-size: 18px;
+    color: white;
+}
+
+.block-1 {
+    background-color: rgb(47, 45, 45);
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subblock {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 350px;
+}
+
+.subblock button {
+    background-color: rgb(233, 199, 7);
+    color: rgb(47, 45, 45);
+    border: 0;
+    box-shadow: 0;
+}
+
+.block-1 img {
+    width: 150px;
+    height: auto;
+    padding: 8px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+}
+
+.subtitle {
+    color: white;
+    font-size: 18px;
+}
+
+.block-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 16px;
+    padding: 16px;
+   
+}
+
+.content-head {
+    font-size: 36px;
+    font-weight: 650;
+    color: rgb(47, 45, 45);
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px
+    
+}
+
+.card-container img {
+    width: auto;
+    height: 80px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+    font-size: 12px;
+    margin: 8px;
+}
+
+.block-3 {
+    background-color: rgb(255, 245, 189);
+    padding: 32px;
+}
+
+.block-3 p:first-of-type {
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(47, 45, 45);
+}
+
+.block-3 p:nth-of-type(2) {
+    font-size: 20px;
+    color: rgb(47, 45, 45);
+    font-weight: 900;
+    text-align: end;
+}
+
+.block-4 {
+    margin: 40px 100px;
+    background-color: rgb(233, 199, 7);
+    display: flex;
+    padding: 16px 16px;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+}
+
+.block-4 button {
+    background-color:rgb(233, 199, 7);
+    box-shadow: 0;
+    border: 2px solid white;
+    color: white;
+}
+
+.b4-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 4px;
+}
+
+.b4-1 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.b4-2 {
+    font-size: 12px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: rgb(47, 45, 45);
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
